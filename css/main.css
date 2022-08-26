@@ -1,0 +1,228 @@
+body{
+    background: rgb(169, 108, 108);
+}
+
+.ban{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+}
+
+.name{
+    padding: 100px 0px 40px;
+}
+
+.deedee{
+    font-style: italic;
+    text-decoration: none;
+}
+
+.deedee > span{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.my-btn{
+    padding: 10px 25px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.profile{
+    min-height: 100vh;
+}
+
+.okay1{
+    text-align: center;
+}
+
+.okay1 img{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: top;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.social i{
+    font-size: 25px;
+    color: lightslategray;
+}
+
+.about-text{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+.about-boldtext{
+    font-weight: bold;
+}
+
+.pageimg{
+    width: 100%;
+    height: 700px;
+}
+
+.about-mini legend{
+    margin-bottom: 0px;
+}
+
+#profile button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#profile button{
+    animation-name: example1;
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: all .5s ease;
+}
+
+.about-textful{
+    position: relative;
+    top: -60px;
+}
+
+#whatido i{
+    font-size: 50px;
+}
+
+.testimonial img{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    /* opacity: .8; */
+}
+
+.tester img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.tester{
+    bottom: 10%;
+    color: black;
+}
+
+#contact{
+    height: 550px;
+}
+
+#contact .hline {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 0px auto 0 auto;
+    border-radius: 50%;
+}
+
+#contact .hline2 {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+}
+
+.form-aspect input{
+    width: 100%;
+}
+
+.form-aspect textarea{
+    width: 100%;
+}
+
+.last-button{
+    padding: 8px 20px;
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 30px;
+}
+
+/* End of css */
+
+
+@media screen and (max-width:565px){
+    .tester{
+        bottom: 0%;
+    }
+}
+
+@keyframes example1 {
+    0%{
+        position: relative;
+        top: -3px;
+        background-color: rgb(188,188,188);
+    }
+    9%{
+        position: relative;
+        top: -2px;
+        background-color: rgb(168,168,168);
+    }
+    18%{
+        position: relative;
+        top: -1px;
+        background-color: rgb(148,148,148);
+    }
+    27%{
+        position: relative;
+        top: 0px;
+        background-color: rgb(128,128,128);
+    }
+    36%{
+        position: relative;
+        top: 1px;
+        background-color: rgb(118,118,118);
+    }
+    45%{
+        position: relative;
+        top: 2px;
+        background-color: rgb(108,108,108);
+    }
+    55%{
+        position: relative;
+        top: 3px;
+        background-color: rgb(98,98,98);
+    }
+    63%{
+        position: relative;
+        top: 2px;
+        background-color: rgb(108,108,108);
+    }
+    72%{
+        position: relative;
+        top: 1px;
+        background-color: rgb(118,118,118);
+    }
+    81%{
+        position: relative;
+        top: 0px;
+        background-color: rgb(128,128,128);
+    }
+    90%{
+        position: relative;
+        top: -1px;
+        background-color: rgb(148,148,148);
+    }
+    100%{
+        position: relative;
+        top: -3px;
+        background-color: rgb(168,168,168);
+    }
+}
+
+/* Media queries and key frames */
